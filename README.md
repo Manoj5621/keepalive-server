@@ -1,3 +1,30 @@
+Insatllation
+
+Backend
+
+- cd backend
+
+-source venv/Scripts/activate
+
+- uvicorn main:app --reload
+
+Frontend
+
+-npm install
+
+-npm run dev <!-- run the server-->
+
+
+.env
+
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=your_password
+MYSQL_DATABASE=keepalive_server
+
+
+
 Creating the database in MySql
 
 <!-- create a database table -->
